@@ -1,0 +1,157 @@
+div.selected{
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 5550px;
+    background-color: lightgray;
+}
+div.selected>div.head{
+    width: 96%;
+    height: 870px;
+    position: absolute;
+    top: calc(50% - 870px / 2);
+    right: calc(50% - 96% / 2);
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+div.selected>div.head>div.title{
+    width:100%;
+    height: 70px;
+    position: relative;
+}
+div.selected>div.head>div.title>div.icon{
+    width: 35px;
+    height: 70px;
+    position: absolute;
+    right: 450px;
+}
+div.selected>div.head>div.title>div.icon>img{
+    width: 30px;
+    height: 30px;
+}
+div.selected>div.head>div.title>div.text{
+    width: 400px;
+    height: 70px;
+    position: absolute;
+    right: 490px;
+    top: 5px;
+}
+div.selected>div.head>div.title>div.text>p{
+    font-family: iransans;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+div.selected>div.head>div.grid{
+    width: 100%;
+    height:750px ;
+}
+div.selected>div.head>div.grid>div.grid-1{
+    display: inline-block;
+    width: 16.39%;
+    height: 245px;
+    position: relative;
+    background-color: white;
+}
+div.selected>div.head>div.grid>div.grid-1>a{
+    width:100% ;
+    height: inherit;
+    position: absolute;
+}
+div.selected>div.head>div.grid>div.grid-1>a>img{
+    width: 150px;
+    height: 130px;
+    position: absolute;
+    right: calc(50% - 150px / 2);
+    top: 10px;
+}
+div.selected>div.head>div.grid>div.grid-1>a>div.off{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 140px;
+}
+div.selected>div.head>div.grid>div.grid-1>a>div.off>div.plus{
+    width: 50%;
+    height: 30px;
+    position: relative;
+}
+div.selected>div.head>div.grid>div.grid-1>a>div.off>div.plus>p{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: calc(50% - 30px / 2);
+    top: calc(50% - 30px / 2);
+    line-height: 30px;
+    border: 2px solid black;
+    color: red;
+    font-size: 46px;
+    font-weight: bolder;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+div.selected>div.head>div.grid>div.grid-1>a>div.off>div.off-1{
+    width: 100% ;
+    height: 70px;
+}
+div.selected>div.head>div.grid>div.grid-1>a>div.off>div.off-1>p.price{
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+div.selected>div.head>div.grid>div.grid-1>a>div.off>div.off-1>p.off{
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    top: 45%;
+    right: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #ef3b50;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+div.selected>div.head>div.grid>div.grid-1>a>div.off>div.off-1>p.offer{
+    display: inline-block;
+    position: absolute;
+    top: 75%;
+    left: 40px;
+    color: lightgray;
+    text-decoration: line-through;
+    font-size: 14px;
+    font-weight: bold;
+}
+div.selected>div.head>div.more{
+    width: 100%;
+    height: 50px;
+}
+div.selected>div.head>div.more>a{
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+}
+div.selected>div.head>div.more>a>p{
+    width: inherit;
+    height: inherit;
+    font-family: iransans;
+    line-height: 50px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}

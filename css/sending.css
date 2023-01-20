@@ -1,0 +1,31 @@
+div.sending{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 6980px;
+    background-color:lightgray;
+}
+div.sending>div.options{
+    display: inline-block;
+    width: 19.7%;
+    height: 80px;
+}
+div.sending>div.options>a{
+    display: inline-block;
+    width: inherit;
+    height: 80px;
+    position: absolute;
+}
+div.sending>div.options>a>figure{
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    text-align: center;
+}
+div.sending>div.options>a>figure>figcaption{
+    font-family: iransans;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+}

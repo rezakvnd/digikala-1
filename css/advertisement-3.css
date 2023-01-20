@@ -1,0 +1,23 @@
+div.advertisement-3{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 2800px;
+    background-color: lightgray;
+}
+div.advertisement-3>a{
+    display: inline-block;
+    width: 96%;
+    height: 450px;
+    margin-right: 23px;
+    margin-top: 20px;
+}
+div.advertisement-3>a>img{
+    width: 100%;
+    height: inherit;
+    border-radius: 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}

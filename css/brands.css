@@ -1,0 +1,90 @@
+div.brands{
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 2550px;
+    background-color:lightgray;
+}
+div.brands>div.brands-1{
+    width:96.3%;
+    height: 230px;
+    position: absolute;
+    top: calc(50% - 230px / 2);
+    right: calc(50% - 96.3% / 2);
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+div.brands>div.brands-1>div.brands-2{
+    width: 100%;
+    height: 40px;
+}
+div.brands>div.brands-1>div.brands-2>div.icon{
+    display: inline-block;
+    width: 550px;
+    height: inherit;
+}
+div.brands>div.brands-1>div.brands-2>div.icon>img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 520px;
+    top: 7px;
+}
+div.brands>div.brands-1>div.brands-2>div.text{
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    right: 550px;
+}
+div.brands>div.brands-1>div.brands-2>div.text>p{
+    font-family: iransans;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    line-height: 40px;
+    
+}
+div.brands>div.brands-1>div.brands-3{
+    width: 100%;
+    height: 188px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img.c {
+    display: block;
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+ 

@@ -1,0 +1,92 @@
+div.info-2{
+    width: 100%;
+    height: 280px;
+    position: absolute;
+    top: 7490px;
+    background-color:lightgray;
+}
+div.info-2>hr.line{
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 30px;
+    color: white;
+}
+div.info-2>div.about{
+    display: inline-block;
+    width: 650px;
+    height: 220px;
+    position: absolute;
+    top: 31px;
+}
+div.info-2>div.about>h3{
+    display: block;
+    font-family: iransans;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    padding-right: 20px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+div.info-2>div.about>p{
+    display: block;
+    font-family: iransans;
+    font-weight: bold;
+    text-align: justify;
+    color: black;
+    font-size: 13px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+div.info-2>div.about>a{
+    display: block;
+    text-decoration: none;
+    font-family: iransans;
+    font-weight: bold;
+    text-align: justify;
+    color: black;
+    font-size: 13px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+div.info-2>div.about>a>img{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+
+}
+div.info-2>div.license{
+    display: inline-block;
+    width: 350px;
+    height: 220px;
+    position: absolute;
+    top: 31px;
+    right: 900px;
+}
+div.info-2>div.license>div.logo-7{
+    display: inline-block;
+    width: 32%;
+    height: 220px;
+}
+div.info-2>div.license>div.logo-7>a{
+    width: 110px;
+    height: 110px;
+}
+div.info-2>div.license>div.logo-7>a>img{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: calc(50% - 90px / 2);
+}
+div.info-2>hr.line-1{
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 265px;
+    color: white;
+}

@@ -1,0 +1,104 @@
+div.reading{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 6450px;
+    background-color:lightgray;
+}
+div.reading>div.heading{
+    width: 96%;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: calc(50% - 96% / 2);
+}
+div.reading>div.heading>div.title{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+}
+div.reading>div.heading>div.title>p{
+    height: 40px;
+    line-height: 40px;
+    font-family: iransans;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    top: calc(50% - 40px / 2);
+    padding-right: 30px;
+
+}
+div.reading>div.heading>div.readmore{
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+}
+div.reading>div.heading>div.readmore>a{
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+    position: absolute;
+}
+div.reading>div.heading>div.readmore>a>p{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    font-family: iransans;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    padding-right: 60px;
+
+}
+div.reading>div.heading>div.readmore>a>img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: calc(50% - 20px / 2);
+}
+div.reading>div.news{
+    width: 96%;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    right: calc(50% - 96% / 2);
+}
+div.reading>div.news>a{
+    display: inline-block;
+    width: 24.7%;
+    height: 295px;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+div.reading>div.news>a>img{
+    width: 100%;
+    height: 230px;
+    position: absolute;
+    top: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+div.reading>div.news>a>p{
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    top: 230px;
+    text-align: justify;
+    padding: 10px;
+    font-family: iransans;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    line-height: 20px;
+    /* background-color: white; */
+}

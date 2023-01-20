@@ -1,0 +1,104 @@
+div.products-2{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 4350px;
+    background-color:lightgray;
+}
+div.products-2>div.kala{
+    width: 96%;
+    height: 470px;
+    position: absolute;
+    top: calc(50% - 470px / 2);
+    right: calc(50% - 96% / 2);
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+div.products-2>div.kala>div.kala-1{
+    display: inline-block;
+    width: 24.754%;
+    height: 470px;
+    position: relative;
+    /* background-color: aqua; */
+}
+div.products-2>div.kala>div.kala-1>div.title{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+}
+div.products-2>div.kala>div.kala-1>div.title>h3{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    right: 10px;
+    font-family: iransans;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+div.products-2>div.kala>div.kala-1>.subtitle{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+}
+div.products-2>div.kala>div.kala-1>.subtitle>p{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    font-family: iransans;
+    font-size: 13px;
+    color: gray;
+    line-height: 40px;
+}
+div.products-2>div.kala>div.kala-1>div.pic{
+    width: 99%;
+    height: 340px;
+    position: absolute;
+    right: calc(50% - 99% / 2);
+    border: 1px solid lightgray;
+    top: 80px;
+}
+div.products-2>div.kala>div.kala-1>div.pic>div.pic-1{
+    display: inline-block;
+    width: 49%;
+    height: 167px;
+    position: relative;
+    background-color: white;
+}
+div.products-2>div.kala>div.kala-1>div.pic>div.pic-1>img{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: calc(50% - 140px / 2);
+    right: calc(50% - 140px / 2);
+}
+div.products-2>div.kala>div.kala-1>div.view{
+    width: 100%;
+    height: 46px;
+    position: absolute;
+    top: 420px;
+}
+div.products-2>div.kala>div.kala-1>div.view>a{
+    width:100%;
+    height: inherit;
+}
+div.products-2>div.kala>div.kala-1>div.view>a>p{
+    width: 50%;
+    height: inherit;
+    position: absolute;
+    top: 20px;
+    right: calc(50% - 46px / 2);
+    font-family: iransans;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+

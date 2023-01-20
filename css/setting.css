@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: iransans;
+    src: url(../fonts/fa/Iranian\ Sans.ttf);
+}
+:root{
+    --colorwrapper:#ffffff;
+    --colorbox:#f0f0f1;
+}
+::-webkit-scrollbar{
+    background-color:lightgray;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: darkgray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

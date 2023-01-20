@@ -1,0 +1,31 @@
+div.badges{
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+    position: absolute;
+    top: 510px;
+}
+div.badges>div.badges-1{
+    width: 10%;
+    height: inherit;
+    margin-top:20px ;
+    margin-right: 25px;
+    display: inline-block;
+}
+div.badges>div.badges-1>a{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: iransans;
+    color: black;
+}
+div.badges>div.badges-1>a>img{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    object-fit: contain;
+}
